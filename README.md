@@ -1,2 +1,24 @@
 # SwiftSnippets
-A collection of handy Swift snippets I use in most of my apps.
+*SwiftSnippets* is collection of handy Swift snippets I use in most of my apps.
+
+As I consider them useful for others too, I've decided to put them up on GitHub. Yet, with them belonging into different categories, they aren't bundled in a framework, but provided as single files. Please note that some references across the files are there nonetheless.
+
+## Documentation
+
+You'll find two types of code files in this repo – *Manager Classes* & *Info Structs*:
+- **Manager Classes** are by design singleton classes that, *as you probably guessed*, manage something, e. g. app review requests.
+- **Info Structs** are designed as purely static structs, that just provide static variables with information on a matter, e. g. the app's version.
+
+As this repo is rather considered a collection of handy snippets that often have to be modified for different apps, no specific documentation is provided. Please refer to the source files on how to use the classes / structs.
+
+## Contributing
+
+Contributions are welcome. In order not to blow this repo up with fairly special snippets that aren't of any general use, please first open up an issue to discuss any proposals.
+
+Please obey these guidelines:
+- Stick to the **Singleton Manager Class / Static Info Struct** structure of this repo. For snippets that don't fit into this scheme, have a look at [HandySwift](https://github.com/Flinesoft/HandySwift) and [HandyUIKit](https://github.com/Flinesoft/HandyUIKit).
+- For **commit messages**, follow the syntax described [here](http://chris.beams.io/posts/git-commit/).
+- For **new files or additions**, follow the file structure guide described [here](http://bestpractices.jamitlabs.com/t/file-structure-use-of-mark/84).
+
+## License
+This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/fredpi/SwiftSnippets/blob/master/LICENSE.md) for details.
