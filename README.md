@@ -16,9 +16,9 @@ As this repo is rather considered a collection of handy snippets that often have
 Contributions are welcome. In order not to blow this repo up with fairly special snippets that aren't of any general use, please first open up an issue to discuss any proposals.
 
 Please obey these guidelines:
-- Stick to the **Singleton Manager Class / Static Info Struct** structure of this repo. For snippets that don't fit into this scheme, have a look at [HandySwift](https://github.com/Flinesoft/HandySwift) and [HandyUIKit](https://github.com/Flinesoft/HandyUIKit).
+- Stick to the **Singleton Manager Class / Static Info Struct** structure of this repo. For snippets that don't fit into this scheme, have a look at [HandySwift](https://github.com/Flinesoft/HandySwift) and [HandyUIKit](https://github.com/Flinesoft/HandyUIKit) where they may fit better.
 - For **commit messages**, follow the syntax described [here](http://chris.beams.io/posts/git-commit/).
 - For **new files or additions**, follow the file structure guide described [here](http://bestpractices.jamitlabs.com/t/file-structure-use-of-mark/84).
 
 ## License
-This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/fredpi/SwiftSnippets/blob/master/LICENSE.md) for details.
+This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/fredpi/SwiftSnippets/blob/stable/LICENSE.md) for details.
