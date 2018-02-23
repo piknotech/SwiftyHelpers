@@ -1,0 +1,110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		CC62AACE2040D0A10062C26C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CC62AAD02040D0A10062C26C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		CC62AAD12040D0A10062C26C /* InstallationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationManager.swift; sourceTree = "<group>"; };
+		CC62AAD22040D0A10062C26C /* BrandingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandingManager.swift; sourceTree = "<group>"; };
+		CC62AAD32040D0A10062C26C /* AppReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewManager.swift; sourceTree = "<group>"; };
+		CC62AAD42040D0A10062C26C /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		CC62AAD62040D0A10062C26C /* SizeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeInfo.swift; sourceTree = "<group>"; };
+		CC62AAD72040D0A10062C26C /* VersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfo.swift; sourceTree = "<group>"; };
+		CC62AAD82040D0A10062C26C /* InstallationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationInfo.swift; sourceTree = "<group>"; };
+		CC62AAD92040D0A10062C26C /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		CC62AADA2040D0A10062C26C /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationInfo.swift; sourceTree = "<group>"; };
+		CC62AADB2040D0A10062C26C /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		CC43A9D62040D0830038D290 = {
+			isa = PBXGroup;
+			children = (
+				CC62AACF2040D0A10062C26C /* Managers */,
+				CC62AAD52040D0A10062C26C /* Info */,
+				CC62AADB2040D0A10062C26C /* LICENSE.md */,
+				CC62AACE2040D0A10062C26C /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		CC62AACF2040D0A10062C26C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CC62AAD32040D0A10062C26C /* AppReviewManager.swift */,
+				CC62AAD22040D0A10062C26C /* BrandingManager.swift */,
+				CC62AAD42040D0A10062C26C /* FeedbackManager.swift */,
+				CC62AAD12040D0A10062C26C /* InstallationManager.swift */,
+				CC62AAD02040D0A10062C26C /* SoundManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CC62AAD52040D0A10062C26C /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				CC62AADA2040D0A10062C26C /* AnimationInfo.swift */,
+				CC62AAD92040D0A10062C26C /* DeviceInfo.swift */,
+				CC62AAD82040D0A10062C26C /* InstallationInfo.swift */,
+				CC62AAD62040D0A10062C26C /* SizeInfo.swift */,
+				CC62AAD72040D0A10062C26C /* VersionInfo.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		CC43A9D72040D0830038D290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftSnippets" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC43A9D62040D0830038D290;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		CC43A9DB2040D0830038D290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CC43A9DC2040D0830038D290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftSnippets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC43A9DB2040D0830038D290 /* Debug */,
+				CC43A9DC2040D0830038D290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC43A9D72040D0830038D290 /* Project object */;
+}
