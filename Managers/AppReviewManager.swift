@@ -20,6 +20,7 @@ class AppReviewManager {
 
         set {
             UserDefaults.standard.set(newValue, forKey: "AppReviewManager.events")
+            UserDefaults.standard.synchronize()
         }
     }
 
@@ -30,6 +31,7 @@ class AppReviewManager {
 
         set {
             UserDefaults.standard.set(newValue, forKey: "AppReviewManager.lastAskDate")
+            UserDefaults.standard.synchronize()
         }
     }
 
