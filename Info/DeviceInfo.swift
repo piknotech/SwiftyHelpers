@@ -7,7 +7,7 @@ import Foundation
 
 struct DeviceInfo {
     /// Device's model name
-    static let deviceModelName: String = {
+    static let modelName: String = {
         var systemInfo = utsname()
         uname(&systemInfo)
         let machineMirror = Mirror(reflecting: systemInfo.machine)
@@ -18,17 +18,17 @@ struct DeviceInfo {
     }()
 
     /// Device's language
-    static var deviceLocale: String {
+    static var locale: String {
         return Locale.current.identifier
     }
 
     /// Device's carrier
-    static var deviceCarrier: String {
+    static var carrier: String {
         return CTTelephonyNetworkInfo().subscriberCellularProvider?.carrierName ?? ""
     }
 
     /// Device's timezone
-    static var deviceTimeZone: String {
+    static var timeZone: String {
         return NSTimeZone.local.abbreviation() ?? ""
     }
 }
