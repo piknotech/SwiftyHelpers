@@ -7,7 +7,7 @@ import UIKit
 struct VersionInfo {
     /// App's version
     static var appVersion: String {
-        guard let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String else {
+        guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {
             fatalError("Unable to read CFBundleShortVersionString from plist")
         }
 
@@ -16,7 +16,7 @@ struct VersionInfo {
 
     /// App's build number
     static var appBuild: String {
-        guard let build = Bundle.main.infoDictionary!["CFBundleVersion"] as? String else {
+        guard let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String else {
             fatalError("Unable to read CFBundleVersion from plist")
         }
 
