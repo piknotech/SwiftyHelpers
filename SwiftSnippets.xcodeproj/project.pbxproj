@@ -22,6 +22,7 @@
 		CC973DB920528B80007CBB24 /* DelayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayManager.swift; sourceTree = "<group>"; };
 		CC973DBA20528B80007CBB24 /* LoopManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopManager.swift; sourceTree = "<group>"; };
 		CC973DBB20528B80007CBB24 /* RandomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomManager.swift; sourceTree = "<group>"; };
+		CC973DBC20529081007CBB24 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -44,6 +45,7 @@
 				CC62AAD42040D0A10062C26C /* FeedbackManager.swift */,
 				CC62AAD12040D0A10062C26C /* InstallationManager.swift */,
 				CC973DBA20528B80007CBB24 /* LoopManager.swift */,
+				CC973DBC20529081007CBB24 /* NotificationManager.swift */,
 				CC973DBB20528B80007CBB24 /* RandomManager.swift */,
 				CC62AAD02040D0A10062C26C /* SoundManager.swift */,
 			);
