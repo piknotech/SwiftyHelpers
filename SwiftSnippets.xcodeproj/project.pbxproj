@@ -19,6 +19,9 @@
 		CC62AAD92040D0A10062C26C /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		CC62AADA2040D0A10062C26C /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationInfo.swift; sourceTree = "<group>"; };
 		CC62AADB2040D0A10062C26C /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		CC973DB920528B80007CBB24 /* DelayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayManager.swift; sourceTree = "<group>"; };
+		CC973DBA20528B80007CBB24 /* LoopManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopManager.swift; sourceTree = "<group>"; };
+		CC973DBB20528B80007CBB24 /* RandomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -37,8 +40,11 @@
 			children = (
 				CC62AAD32040D0A10062C26C /* AppReviewManager.swift */,
 				CC62AAD22040D0A10062C26C /* BrandingManager.swift */,
+				CC973DB920528B80007CBB24 /* DelayManager.swift */,
 				CC62AAD42040D0A10062C26C /* FeedbackManager.swift */,
 				CC62AAD12040D0A10062C26C /* InstallationManager.swift */,
+				CC973DBA20528B80007CBB24 /* LoopManager.swift */,
+				CC973DBB20528B80007CBB24 /* RandomManager.swift */,
 				CC62AAD02040D0A10062C26C /* SoundManager.swift */,
 			);
 			path = Managers;
