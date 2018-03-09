@@ -1,5 +1,5 @@
-# SwiftSnippets
-*SwiftSnippets* is collection of handy Swift snippets I use in most of my apps.
+# SwiftySnippets
+*SwiftySnippets* is collection of handy Swift snippets I use in most of my iOS apps. Some may be more broad, others might only make sense in conjunction with various iOS APIs.
 
 As I consider them useful for others too, I've decided to put them up on GitHub. Yet, with them belonging into different categories, they aren't bundled in a framework, but provided as single files. Please note that some references across the files are there nonetheless.
 
@@ -21,4 +21,4 @@ Please obey these guidelines:
 - For **new files or additions**, follow the file structure guide described [here](http://bestpractices.jamitlabs.com/t/file-structure-use-of-mark/84).
 
 ## License
-This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/fredpi/SwiftSnippets/blob/stable/LICENSE.md) for details.
+This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/fredpi/SwiftySnippets/blob/stable/LICENSE.md) for details.

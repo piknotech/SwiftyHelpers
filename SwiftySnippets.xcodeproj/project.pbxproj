@@ -72,7 +72,7 @@
 			attributes = {
 				LastUpgradeCheck = 0920;
 			};
-			buildConfigurationList = CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftSnippets" */;
+			buildConfigurationList = CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftySnippets" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,7 +103,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftSnippets" */ = {
+		CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftySnippets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC43A9DB2040D0830038D290 /* Debug */,
