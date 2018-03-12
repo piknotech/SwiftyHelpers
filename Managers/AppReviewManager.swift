@@ -8,7 +8,7 @@ import StoreKit
 class AppReviewManager {
     // MARK: - Properties
     static let shared = AppReviewManager()
-
+    
     private let minDays = 5
     private let minDaysInterval = 15
     private let minEventsInterval = 5
