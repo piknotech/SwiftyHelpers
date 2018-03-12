@@ -54,6 +54,7 @@
 		CC973DBC20529081007CBB24 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftySnippets.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		CCAA8CB02056D13A000F054D /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 				CCAA8C972056CB0F000F054D /* Loose References */,
 				CC62AADB2040D0A10062C26C /* LICENSE.md */,
 				CC62AACE2040D0A10062C26C /* README.md */,
+				CCAA8CB02056D13A000F054D /* CONTRIBUTING.md */,
 			);
 			sourceTree = "<group>";
 		};
