@@ -13,9 +13,7 @@ Please obey these guidelines:
 - For **new files or additions**:
     - Follow the file structure guide described [here](http://bestpractices.jamitlabs.com/t/file-structure-use-of-mark/84).
     - Don't produce any SwiftLint warnings or errors.
-
-Please use the following file header format for any new Swift files:
-
+- For **file headers** in Swift source files, use the following format:
 ```swift
 //
 //  [File Title].swift
@@ -25,4 +23,3 @@ Please use the following file header format for any new Swift files:
 //  Released as a part of SwiftySnippets. https://www.github.com/fredpi/SwiftySnippets
 //
 ```
-
