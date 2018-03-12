@@ -1,5 +1,9 @@
 //
 //  DeviceInfo.swift
+//  SwiftySnippets
+//
+//  Created by Frederick Pietschmann on 12.03.18.
+//  Released as a part of SwiftySnippets. https://www.github.com/fredpi/SwiftySnippets
 //
 
 import CoreTelephony

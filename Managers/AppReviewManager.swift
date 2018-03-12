@@ -1,5 +1,9 @@
 //
 //  AppReviewManager.swift
+//  SwiftySnippets
+//
+//  Created by Frederick Pietschmann on 12.03.18.
+//  Released as a part of SwiftySnippets. https://www.github.com/fredpi/SwiftySnippets
 //
 
 import Foundation
@@ -8,7 +12,7 @@ import StoreKit
 class AppReviewManager {
     // MARK: - Properties
     static let shared = AppReviewManager()
-    
+
     private let minDays = 5
     private let minDaysInterval = 15
     private let minEventsInterval = 5

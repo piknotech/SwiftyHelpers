@@ -53,6 +53,7 @@
 		CC973DBB20528B80007CBB24 /* RandomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomManager.swift; sourceTree = "<group>"; };
 		CC973DBC20529081007CBB24 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftySnippets.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 		CCAA8C972056CB0F000F054D /* Loose References */ = {
 			isa = PBXGroup;
 			children = (
+				CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */,
 				CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */,
 			);
 			name = "Loose References";
@@ -123,6 +125,7 @@
 				CCAA8C922056CB0F000F054D /* Sources */,
 				CCAA8C932056CB0F000F054D /* Frameworks */,
 				CCAA8C942056CB0F000F054D /* CopyFiles */,
+				CCAA8CAE2056CEB5000F054D /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -163,6 +166,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCAA8CAE2056CEB5000F054D /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download it from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCAA8C922056CB0F000F054D /* Sources */ = {

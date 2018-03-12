@@ -1,7 +1,10 @@
 # SwiftySnippets
+
 *SwiftySnippets* is collection of handy Swift snippets I use in most of my iOS apps. Some may be more broad, others might only make sense in conjunction with various iOS APIs.
 
-As I consider them useful for others too, I've decided to put them up on GitHub. Yet, with them belonging into different categories, they aren't bundled in a framework, but provided as single files. Please note that some references across the files are there nonetheless.
+As I consider them useful for others too, I've decided to put them up on GitHub. Yet, with them belonging into different categories, they aren't bundled in a single framework, but provided as single files. In order to be able to be able to build the project, all files are nonetheless part of a static cocoa touch library of no further use.
+
+Please note that there are also some references across the files.
 
 ## Documentation
 
