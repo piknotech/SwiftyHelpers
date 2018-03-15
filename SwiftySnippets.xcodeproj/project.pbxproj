@@ -23,6 +23,7 @@
 		CCAA8CAC2056CB1B000F054D /* RandomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBB20528B80007CBB24 /* RandomManager.swift */; };
 		CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD02040D0A10062C26C /* SoundManager.swift */; };
 		CCD8A7A8205B242E0032A350 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8A7A7205B242E0032A350 /* SampleTests.swift */; };
+		CCD8A7AA205B24C70032A350 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = CCD8A7A9205B24C70032A350 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		CCAA8CB02056D13A000F054D /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		CCD8A7A7205B242E0032A350 /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
+		CCD8A7A9205B24C70032A350 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */,
+				CCD8A7A9205B24C70032A350 /* .travis.yml */,
 				CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */,
 				CC0F6BD6205B1F7200E4C097 /* Tests.xctest */,
 			);
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD8A7AA205B24C70032A350 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
