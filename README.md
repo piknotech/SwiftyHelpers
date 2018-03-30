@@ -7,7 +7,7 @@
         <img src="https://travis-ci.org/fredpi/SwiftySnippets.svg?branch=stable" alt="Build Status">
     </a>
     <a href="#">
-        <img src="https://img.shields.io/badge/Swift-4.0-FFAC45.svg" alt="Swift: 4.0">
+        <img src="https://img.shields.io/badge/Swift-4.1-FFAC45.svg" alt="Swift: 4.1">
     </a>
     <a href="https://github.com/fredpi/SwiftySnippets/blob/stable/LICENSE.md">
         <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">

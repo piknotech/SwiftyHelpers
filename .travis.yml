@@ -1,4 +1,4 @@
 language: swift
 xcode_project: SwiftySnippets.xcodeproj
 xcode_scheme: SwiftySnippets
-osx_image: xcode9.2
+osx_image: xcode9.3
