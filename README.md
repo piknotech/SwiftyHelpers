@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/fredpi/SwiftySnippets">
-        <img src="https://travis-ci.org/fredpi/SwiftySnippets.svg?branch=stable" alt="Build Status">
+    <a href="https://travis-ci.org/piknotech/SwiftySnippets">
+        <img src="https://travis-ci.org/piknotech/SwiftySnippets.svg?branch=stable" alt="Build Status">
     </a>
     <a href="#">
         <img src="https://img.shields.io/badge/Swift-4.1-FFAC45.svg" alt="Swift: 4.1">
