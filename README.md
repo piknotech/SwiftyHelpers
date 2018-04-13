@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/fredpi/SwiftySnippets/stable/Logo.png" width=600>
+    <img src="https://raw.githubusercontent.com/piknotech/SwiftySnippets/stable/Logo.png" width=600>
 </p>
 
 <p align="center">
@@ -9,15 +9,15 @@
     <a href="#">
         <img src="https://img.shields.io/badge/Swift-4.1-FFAC45.svg" alt="Swift: 4.1">
     </a>
-    <a href="https://github.com/fredpi/SwiftySnippets/blob/stable/LICENSE.md">
+    <a href="https://github.com/piknotech/SwiftySnippets/blob/stable/LICENSE.md">
         <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
     </a>
 </p>
 
 <p align="center">
     <a href="#documentation">Documentation</a>
-  • <a href="https://github.com/fredpi/SwiftySnippets/issues">Issues</a>
-  • <a href="https://github.com/fredpi/SwiftySnippets/pulls">Pull Requests</a>
+  • <a href="https://github.com/piknotech/SwiftySnippets/issues">Issues</a>
+  • <a href="https://github.com/piknotech/SwiftySnippets/pulls">Pull Requests</a>
   • <a href="#contributing">Contributing</a>
   • <a href="#license">License</a>
 </p>
@@ -36,7 +36,7 @@ As this repo is rather considered a collection of handy snippets that often have
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](https://github.com/fredpi/SwiftySnippets/blob/stable/CONTRIBUTING.md) for in-depth information.
+Contributions are welcome. See [CONTRIBUTING.md](https://github.com/piknotech/SwiftySnippets/blob/stable/CONTRIBUTING.md) for in-depth information.
 
 ## License
-This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/fredpi/SwiftySnippets/blob/stable/LICENSE.md) for details.
+This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/piknotech/SwiftySnippets/blob/stable/LICENSE.md) for details.

@@ -3,7 +3,7 @@
 //  SwiftySnippetsTests
 //
 //  Created by Frederick Pietschmann on 15.03.18.
-//  Released as a part of SwiftySnippets. https://www.github.com/fredpi/SwiftySnippets
+//  Released as a part of SwiftySnippets. https://www.github.com/piknotech/SwiftySnippets
 //
 
 @testable import SwiftySnippets

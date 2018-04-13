@@ -20,6 +20,6 @@ Please obey these guidelines:
 //  SwiftySnippets[Tests]
 //
 //  Created by [Your Name] on [Day (2 digits)].[Month (2 digits)].[Year (2 digits)].
-//  Released as a part of SwiftySnippets. https://www.github.com/fredpi/SwiftySnippets
+//  Released as a part of SwiftySnippets. https://www.github.com/piknotech/SwiftySnippets
 //
 ```
