@@ -34,7 +34,7 @@ file_header:
                     \/\/  SwiftySnippets(Tests)?
                     \/\/
                     \/\/  Created by [^\(\)\d\n]+ on \d{1,2}\.\d{1,2}\.\d{2}\.
-                    \/\/  Released as a part of SwiftySnippets. https:\/\/www.github.com\/piknotech\/SwiftySnippets
+                    \/\/  Copyright © 2018 Piknotech\. All rights reserved\.
                     \/\/
 
 custom_rules:

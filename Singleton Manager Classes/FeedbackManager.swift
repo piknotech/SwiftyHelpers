@@ -3,7 +3,7 @@
 //  SwiftySnippets
 //
 //  Created by Frederick Pietschmann on 12.03.18.
-//  Released as a part of SwiftySnippets. https://www.github.com/piknotech/SwiftySnippets
+//  Copyright © 2018 Piknotech. All rights reserved.
 //
 
 import UIKit
