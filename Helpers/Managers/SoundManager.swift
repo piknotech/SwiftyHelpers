@@ -1,6 +1,6 @@
 //
 //  SoundManager.swift
-//  SwiftySnippets
+//  SwiftyHelpers
 //
 //  Created by Frederick Pietschmann on 12.03.18.
 //  Copyright © 2018 Piknotech. All rights reserved.

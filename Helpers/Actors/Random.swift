@@ -1,19 +1,17 @@
 //
-//  RandomManager.swift
-//  SwiftySnippets
+//  Random.swift
+//  SwiftyHelpers
 //
 //  Created by Frederick Pietschmann on 12.03.18.
 //  Copyright © 2018 Piknotech. All rights reserved.
 //
 
-import CoreGraphics
+import UIKit
 
-class RandomManager {
+class Random {
     // MARK: - Properties
-    static let shared = RandomManager()
-
     /// Returns a random number between 0 and 1.
-    var from0to1: Double {
+    static var from0to1: Double {
         return between(0, and: 1)
     }
 
@@ -22,7 +20,7 @@ class RandomManager {
 
     // MARK: - Methods
     /// Returns a random number between the two given bounds.
-    func between<T: Field>(_ min: T, and max: T) -> T {
+    static func between<T: Field>(_ min: T, and max: T) -> T {
         return min + (max - min) * T(arc4random()) / T(UInt32.max)
     }
 }

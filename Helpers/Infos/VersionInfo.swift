@@ -1,6 +1,6 @@
 //
 //  VersionInfo.swift
-//  SwiftySnippets
+//  SwiftyHelpers
 //
 //  Created by Frederick Pietschmann on 12.03.18.
 //  Copyright © 2018 Piknotech. All rights reserved.
@@ -9,6 +9,10 @@
 import UIKit
 
 struct VersionInfo {
+    // MARK: - Initializers
+    private init() { }
+
+    // MARK: - Properties
     /// App's version
     static var appVersion: String {
         guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {

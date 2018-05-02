@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC0F6BDB205B1F7200E4C097 /* libSwiftySnippets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */; };
+		CC0F6BDB205B1F7200E4C097 /* libSwiftyHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */; };
 		CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AADA2040D0A10062C26C /* AnimationInfo.swift */; };
 		CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD92040D0A10062C26C /* DeviceInfo.swift */; };
 		CCAA8CA22056CB17000F054D /* InstallationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD82040D0A10062C26C /* InstallationInfo.swift */; };
@@ -15,12 +15,12 @@
 		CCAA8CA42056CB17000F054D /* VersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD72040D0A10062C26C /* VersionInfo.swift */; };
 		CCAA8CA52056CB1B000F054D /* AppReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD32040D0A10062C26C /* AppReviewManager.swift */; };
 		CCAA8CA62056CB1B000F054D /* BrandingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD22040D0A10062C26C /* BrandingManager.swift */; };
-		CCAA8CA72056CB1B000F054D /* DelayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DB920528B80007CBB24 /* DelayManager.swift */; };
-		CCAA8CA82056CB1B000F054D /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD42040D0A10062C26C /* FeedbackManager.swift */; };
+		CCAA8CA72056CB1B000F054D /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DB920528B80007CBB24 /* Delay.swift */; };
+		CCAA8CA82056CB1B000F054D /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD42040D0A10062C26C /* HapticFeedback.swift */; };
 		CCAA8CA92056CB1B000F054D /* InstallationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD12040D0A10062C26C /* InstallationManager.swift */; };
-		CCAA8CAA2056CB1B000F054D /* LoopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBA20528B80007CBB24 /* LoopManager.swift */; };
+		CCAA8CAA2056CB1B000F054D /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBA20528B80007CBB24 /* Loop.swift */; };
 		CCAA8CAB2056CB1B000F054D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBC20529081007CBB24 /* NotificationManager.swift */; };
-		CCAA8CAC2056CB1B000F054D /* RandomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBB20528B80007CBB24 /* RandomManager.swift */; };
+		CCAA8CAC2056CB1B000F054D /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBB20528B80007CBB24 /* Random.swift */; };
 		CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD02040D0A10062C26C /* SoundManager.swift */; };
 		CCD8A7A8205B242E0032A350 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8A7A7205B242E0032A350 /* SampleTests.swift */; };
 		CCD8A7AA205B24C70032A350 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = CCD8A7A9205B24C70032A350 /* .travis.yml */; };
@@ -56,18 +56,18 @@
 		CC62AAD12040D0A10062C26C /* InstallationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationManager.swift; sourceTree = "<group>"; };
 		CC62AAD22040D0A10062C26C /* BrandingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandingManager.swift; sourceTree = "<group>"; };
 		CC62AAD32040D0A10062C26C /* AppReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewManager.swift; sourceTree = "<group>"; };
-		CC62AAD42040D0A10062C26C /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		CC62AAD42040D0A10062C26C /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
 		CC62AAD62040D0A10062C26C /* SizeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeInfo.swift; sourceTree = "<group>"; };
 		CC62AAD72040D0A10062C26C /* VersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfo.swift; sourceTree = "<group>"; };
 		CC62AAD82040D0A10062C26C /* InstallationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationInfo.swift; sourceTree = "<group>"; };
 		CC62AAD92040D0A10062C26C /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		CC62AADA2040D0A10062C26C /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationInfo.swift; sourceTree = "<group>"; };
 		CC62AADB2040D0A10062C26C /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		CC973DB920528B80007CBB24 /* DelayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayManager.swift; sourceTree = "<group>"; };
-		CC973DBA20528B80007CBB24 /* LoopManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopManager.swift; sourceTree = "<group>"; };
-		CC973DBB20528B80007CBB24 /* RandomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomManager.swift; sourceTree = "<group>"; };
+		CC973DB920528B80007CBB24 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		CC973DBA20528B80007CBB24 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		CC973DBB20528B80007CBB24 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		CC973DBC20529081007CBB24 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftySnippets.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftyHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		CCAA8CB02056D13A000F054D /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		CCD8A7A7205B242E0032A350 /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0F6BDB205B1F7200E4C097 /* libSwiftySnippets.a in Frameworks */,
+				CC0F6BDB205B1F7200E4C097 /* libSwiftyHelpers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,11 +110,20 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		CC3DA7A0209A0224000CDD67 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC62AACF2040D0A10062C26C /* Managers */,
+				CCA1F7932089FDAD007554F4 /* Actors */,
+				CC62AAD52040D0A10062C26C /* Infos */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		CC43A9D62040D0830038D290 = {
 			isa = PBXGroup;
 			children = (
-				CC62AACF2040D0A10062C26C /* Singleton Manager Classes */,
-				CC62AAD52040D0A10062C26C /* Static Info Structs */,
+				CC3DA7A0209A0224000CDD67 /* Helpers */,
 				CC0F6BD7205B1F7200E4C097 /* Tests */,
 				CCAA8C972056CB0F000F054D /* Loose References */,
 				CC62AADB2040D0A10062C26C /* LICENSE.md */,
@@ -123,23 +132,19 @@
 			);
 			sourceTree = "<group>";
 		};
-		CC62AACF2040D0A10062C26C /* Singleton Manager Classes */ = {
+		CC62AACF2040D0A10062C26C /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				CC62AAD32040D0A10062C26C /* AppReviewManager.swift */,
 				CC62AAD22040D0A10062C26C /* BrandingManager.swift */,
-				CC973DB920528B80007CBB24 /* DelayManager.swift */,
-				CC62AAD42040D0A10062C26C /* FeedbackManager.swift */,
 				CC62AAD12040D0A10062C26C /* InstallationManager.swift */,
-				CC973DBA20528B80007CBB24 /* LoopManager.swift */,
 				CC973DBC20529081007CBB24 /* NotificationManager.swift */,
-				CC973DBB20528B80007CBB24 /* RandomManager.swift */,
 				CC62AAD02040D0A10062C26C /* SoundManager.swift */,
 			);
-			path = "Singleton Manager Classes";
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		CC62AAD52040D0A10062C26C /* Static Info Structs */ = {
+		CC62AAD52040D0A10062C26C /* Infos */ = {
 			isa = PBXGroup;
 			children = (
 				CC62AADA2040D0A10062C26C /* AnimationInfo.swift */,
@@ -148,7 +153,18 @@
 				CC62AAD62040D0A10062C26C /* SizeInfo.swift */,
 				CC62AAD72040D0A10062C26C /* VersionInfo.swift */,
 			);
-			path = "Static Info Structs";
+			path = Infos;
+			sourceTree = "<group>";
+		};
+		CCA1F7932089FDAD007554F4 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				CC973DB920528B80007CBB24 /* Delay.swift */,
+				CC62AAD42040D0A10062C26C /* HapticFeedback.swift */,
+				CC973DBA20528B80007CBB24 /* Loop.swift */,
+				CC973DBB20528B80007CBB24 /* Random.swift */,
+			);
+			path = Actors;
 			sourceTree = "<group>";
 		};
 		CCAA8C972056CB0F000F054D /* Loose References */ = {
@@ -156,7 +172,7 @@
 			children = (
 				CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */,
 				CCD8A7A9205B24C70032A350 /* .travis.yml */,
-				CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */,
+				CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */,
 				CC0F6BD6205B1F7200E4C097 /* Tests.xctest */,
 			);
 			name = "Loose References";
@@ -184,9 +200,9 @@
 			productReference = CC0F6BD6205B1F7200E4C097 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CCAA8C952056CB0F000F054D /* SwiftySnippets */ = {
+		CCAA8C952056CB0F000F054D /* SwiftyHelpers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCAA8C9F2056CB0F000F054D /* Build configuration list for PBXNativeTarget "SwiftySnippets" */;
+			buildConfigurationList = CCAA8C9F2056CB0F000F054D /* Build configuration list for PBXNativeTarget "SwiftyHelpers" */;
 			buildPhases = (
 				CCAA8C922056CB0F000F054D /* Sources */,
 				CCAA8C932056CB0F000F054D /* Frameworks */,
@@ -197,9 +213,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftySnippets;
+			name = SwiftyHelpers;
 			productName = SwiftySnippets;
-			productReference = CCAA8C962056CB0F000F054D /* libSwiftySnippets.a */;
+			productReference = CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftySnippets" */;
+			buildConfigurationList = CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftyHelpers" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,7 +250,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCAA8C952056CB0F000F054D /* SwiftySnippets */,
+				CCAA8C952056CB0F000F054D /* SwiftyHelpers */,
 				CC0F6BD5205B1F7200E4C097 /* Tests */,
 			);
 		};
@@ -297,16 +313,16 @@
 			files = (
 				CCAA8CA62056CB1B000F054D /* BrandingManager.swift in Sources */,
 				CCAA8CA52056CB1B000F054D /* AppReviewManager.swift in Sources */,
-				CCAA8CA82056CB1B000F054D /* FeedbackManager.swift in Sources */,
+				CCAA8CA82056CB1B000F054D /* HapticFeedback.swift in Sources */,
 				CCAA8CA32056CB17000F054D /* SizeInfo.swift in Sources */,
 				CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */,
-				CCAA8CA72056CB1B000F054D /* DelayManager.swift in Sources */,
+				CCAA8CA72056CB1B000F054D /* Delay.swift in Sources */,
 				CCAA8CAB2056CB1B000F054D /* NotificationManager.swift in Sources */,
 				CCAA8CA42056CB17000F054D /* VersionInfo.swift in Sources */,
-				CCAA8CAC2056CB1B000F054D /* RandomManager.swift in Sources */,
+				CCAA8CAC2056CB1B000F054D /* Random.swift in Sources */,
 				CCAA8CA92056CB1B000F054D /* InstallationManager.swift in Sources */,
 				CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */,
-				CCAA8CAA2056CB1B000F054D /* LoopManager.swift in Sources */,
+				CCAA8CAA2056CB1B000F054D /* Loop.swift in Sources */,
 				CCAA8CA22056CB17000F054D /* InstallationInfo.swift in Sources */,
 				CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */,
 			);
@@ -317,7 +333,7 @@
 /* Begin PBXTargetDependency section */
 		CC0F6BDD205B1F7200E4C097 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CCAA8C952056CB0F000F054D /* SwiftySnippets */;
+			target = CCAA8C952056CB0F000F054D /* SwiftyHelpers */;
 			targetProxy = CC0F6BDC205B1F7200E4C097 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -643,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftySnippets" */ = {
+		CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftyHelpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC43A9DB2040D0830038D290 /* Debug */,
@@ -652,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCAA8C9F2056CB0F000F054D /* Build configuration list for PBXNativeTarget "SwiftySnippets" */ = {
+		CCAA8C9F2056CB0F000F054D /* Build configuration list for PBXNativeTarget "SwiftyHelpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCAA8C9D2056CB0F000F054D /* Debug */,

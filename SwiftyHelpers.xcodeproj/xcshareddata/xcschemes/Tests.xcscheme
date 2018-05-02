@@ -19,7 +19,7 @@
                BlueprintIdentifier = "CC0F6BD5205B1F7200E4C097"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:SwiftySnippets.xcodeproj">
+               ReferencedContainer = "container:SwiftyHelpers.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCAA8C952056CB0F000F054D"
-               BuildableName = "libSwiftySnippets.a"
-               BlueprintName = "SwiftySnippets"
-               ReferencedContainer = "container:SwiftySnippets.xcodeproj">
+               BuildableName = "libSwiftyHelpers.a"
+               BlueprintName = "SwiftyHelpers"
+               ReferencedContainer = "container:SwiftyHelpers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "CC0F6BD5205B1F7200E4C097"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:SwiftySnippets.xcodeproj">
+               ReferencedContainer = "container:SwiftyHelpers.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCAA8C952056CB0F000F054D"
-            BuildableName = "libSwiftySnippets.a"
-            BlueprintName = "SwiftySnippets"
-            ReferencedContainer = "container:SwiftySnippets.xcodeproj">
+            BuildableName = "libSwiftyHelpers.a"
+            BlueprintName = "SwiftyHelpers"
+            ReferencedContainer = "container:SwiftyHelpers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCAA8C952056CB0F000F054D"
-            BuildableName = "libSwiftySnippets.a"
-            BlueprintName = "SwiftySnippets"
-            ReferencedContainer = "container:SwiftySnippets.xcodeproj">
+            BuildableName = "libSwiftyHelpers.a"
+            BlueprintName = "SwiftyHelpers"
+            ReferencedContainer = "container:SwiftyHelpers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCAA8C952056CB0F000F054D"
-            BuildableName = "libSwiftySnippets.a"
-            BlueprintName = "SwiftySnippets"
-            ReferencedContainer = "container:SwiftySnippets.xcodeproj">
+            BuildableName = "libSwiftyHelpers.a"
+            BlueprintName = "SwiftyHelpers"
+            ReferencedContainer = "container:SwiftyHelpers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

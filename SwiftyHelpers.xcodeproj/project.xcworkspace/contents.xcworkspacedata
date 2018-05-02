@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SwiftySnippets.xcodeproj">
+      location = "self:/Users/Frederick/Documents/Dev/Projects/Open/SwiftySnippets/SwiftyHelpers.xcodeproj">
    </FileRef>
 </Workspace>

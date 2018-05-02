@@ -1,6 +1,6 @@
 //
 //  DeviceInfo.swift
-//  SwiftySnippets
+//  SwiftyHelpers
 //
 //  Created by Frederick Pietschmann on 12.03.18.
 //  Copyright © 2018 Piknotech. All rights reserved.
@@ -10,6 +10,10 @@ import CoreTelephony
 import Foundation
 
 struct DeviceInfo {
+    // MARK: - Initializers
+    private init() { }
+
+    // MARK: - Properties
     /// Device's model name
     static let modelName: String = {
         var systemInfo = utsname()

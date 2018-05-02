@@ -1,6 +1,6 @@
 //
 //  SizeInfo.swift
-//  SwiftySnippets
+//  SwiftyHelpers
 //
 //  Created by Frederick Pietschmann on 12.03.18.
 //  Copyright © 2018 Piknotech. All rights reserved.
@@ -9,6 +9,10 @@
 import UIKit
 
 struct SizeInfo {
+    // MARK: - Initializers
+    private init() { }
+
+    // MARK: - Properties
     /// Returns screen's scale
     static var scale: CGFloat {
         return UIScreen.main.scale
