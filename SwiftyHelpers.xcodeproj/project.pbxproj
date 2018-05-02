@@ -51,6 +51,7 @@
 /* Begin PBXFileReference section */
 		CC0F6BD6205B1F7200E4C097 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0F6BDA205B1F7200E4C097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC358878209A570C00BFC988 /* FabricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricManager.swift; sourceTree = "<group>"; };
 		CC62AACE2040D0A10062C26C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC62AAD02040D0A10062C26C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		CC62AAD12040D0A10062C26C /* InstallationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationManager.swift; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 			children = (
 				CC62AAD32040D0A10062C26C /* AppReviewManager.swift */,
 				CC62AAD22040D0A10062C26C /* BrandingManager.swift */,
+				CC358878209A570C00BFC988 /* FabricManager.swift */,
 				CC62AAD12040D0A10062C26C /* InstallationManager.swift */,
 				CC973DBC20529081007CBB24 /* NotificationManager.swift */,
 				CC62AAD02040D0A10062C26C /* SoundManager.swift */,
