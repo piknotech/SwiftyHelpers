@@ -60,7 +60,7 @@ class AppReviewManager {
 
         // Minimum usage check
         let day = 86_400
-        if let installationDate = InstallationInfo.dateInstalled {
+        if let installationDate = InstallationManager.shared.dateInstalled {
             guard Date().timeIntervalSince(installationDate) >= Double(minDays * day) else { return false }
         }
 

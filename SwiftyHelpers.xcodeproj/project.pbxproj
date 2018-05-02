@@ -10,7 +10,6 @@
 		CC0F6BDB205B1F7200E4C097 /* libSwiftyHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */; };
 		CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AADA2040D0A10062C26C /* AnimationInfo.swift */; };
 		CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD92040D0A10062C26C /* DeviceInfo.swift */; };
-		CCAA8CA22056CB17000F054D /* InstallationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD82040D0A10062C26C /* InstallationInfo.swift */; };
 		CCAA8CA32056CB17000F054D /* SizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD62040D0A10062C26C /* SizeInfo.swift */; };
 		CCAA8CA42056CB17000F054D /* VersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD72040D0A10062C26C /* VersionInfo.swift */; };
 		CCAA8CA52056CB1B000F054D /* AppReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD32040D0A10062C26C /* AppReviewManager.swift */; };
@@ -60,7 +59,6 @@
 		CC62AAD42040D0A10062C26C /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
 		CC62AAD62040D0A10062C26C /* SizeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeInfo.swift; sourceTree = "<group>"; };
 		CC62AAD72040D0A10062C26C /* VersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfo.swift; sourceTree = "<group>"; };
-		CC62AAD82040D0A10062C26C /* InstallationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationInfo.swift; sourceTree = "<group>"; };
 		CC62AAD92040D0A10062C26C /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		CC62AADA2040D0A10062C26C /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationInfo.swift; sourceTree = "<group>"; };
 		CC62AADB2040D0A10062C26C /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 			children = (
 				CC62AADA2040D0A10062C26C /* AnimationInfo.swift */,
 				CC62AAD92040D0A10062C26C /* DeviceInfo.swift */,
-				CC62AAD82040D0A10062C26C /* InstallationInfo.swift */,
 				CC62AAD62040D0A10062C26C /* SizeInfo.swift */,
 				CC62AAD72040D0A10062C26C /* VersionInfo.swift */,
 			);
@@ -325,7 +322,6 @@
 				CCAA8CA92056CB1B000F054D /* InstallationManager.swift in Sources */,
 				CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */,
 				CCAA8CAA2056CB1B000F054D /* Loop.swift in Sources */,
-				CCAA8CA22056CB17000F054D /* InstallationInfo.swift in Sources */,
 				CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
