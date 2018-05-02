@@ -38,6 +38,12 @@ file_header:
                     \/\/
 
 custom_rules:
+  class_semantics:
+    included: ".*.swift"
+    regex: '^(?!.*(final|abstract|recursive)).*class [A-Z]+.*\{'
+    name: "Class Semantics Specification"
+    message: "Specify the class semantics with either final, /* abstract */ or /* recursive */ keywords. Recursive means that class is used both itself & as a superclass."
+    severity: warning
   closing_brace_whitespace:
     included: ".*.swift"
     regex: '(?:\n| {2,})\}\)? *\n *[^ \n\})\]]'

@@ -9,7 +9,7 @@
 @testable import SwiftyHelpers
 import XCTest
 
-class SampleTests: XCTestCase {
+final class SampleTests: XCTestCase {
     func testExample() {
         XCTAssert(true)
     }

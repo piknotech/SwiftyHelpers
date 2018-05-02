@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BrandingManager {
+final class BrandingManager {
     // MARK: - Properties
     static let shared = BrandingManager()
 

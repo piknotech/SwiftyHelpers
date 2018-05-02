@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Loop {
+final class Loop {
     // MARK: - Initializers
     private init() { }
 

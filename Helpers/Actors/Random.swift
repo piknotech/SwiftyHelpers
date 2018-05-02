@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Random {
+final class Random {
     // MARK: - Properties
     /// Returns a random number between 0 and 1.
     static var from0to1: Double {

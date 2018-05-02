@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Delay {
+final class Delay {
     // MARK: - Subtypes
     /// A simple struct providing user info that is used in conjunction with a timer.
     private struct UserInfo {

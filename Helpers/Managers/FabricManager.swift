@@ -18,7 +18,7 @@ import Crashlytics
 import Fabric
 import Foundation
 
-class FabricManager {
+final class FabricManager {
     // MARK: - Subtypes
     enum Event {
         case someEvent

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HapticFeedback {
+final class HapticFeedback {
     // MARK: - Properties
     private static var generator: UIImpactFeedbackGenerator = {
         UIImpactFeedbackGenerator(style: .light)

@@ -9,7 +9,7 @@
 import AVFoundation
 import Foundation
 
-class SoundManager {
+final class SoundManager {
     // MARK: - Properties
     static let shared = SoundManager()
 

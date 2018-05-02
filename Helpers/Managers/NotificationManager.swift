@@ -15,7 +15,7 @@ import UserNotifications
 /// - Call NotificationManager.shared.setup() in app did finish launching
 /// - Call NotificationManager.shared.resetBadge() in app did become active
 /// - Call NotificationManager.shared.scheduleNotifications() in app did become active
-class NotificationManager {
+final class NotificationManager {
     // MARK: - Properties
     static let shared = NotificationManager()
     private let notificationTitles = [ // Populate this with your own texts
