@@ -14,8 +14,13 @@ struct DeviceInfo {
     private init() { }
 
     // MARK: - Properties
-    /// Device's model name
-    static let modelName: String = {
+    /// Device's model identifier
+    static let modelIdentifier: String = {
+        if let simulatorModelIdentifier = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] {
+            return simulatorModelIdentifier
+        }
+
+        // Model identifiers can be found at https://www.theiphonewiki.com/wiki/Models
         var systemInfo = utsname()
         uname(&systemInfo)
         let machineMirror = Mirror(reflecting: systemInfo.machine)
