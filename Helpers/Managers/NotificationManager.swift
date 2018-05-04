@@ -87,7 +87,7 @@ final class NotificationManager {
 
         // Configure badge & sound
         notification.badge = 1
-        notification.sound = UNNotificationSound(named: "notification_sound.wav")
+        // Optionally: notification.sound = UNNotificationSound(named: "notification_sound.wav")
 
         // Create trigger
         let notificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(days * 24 * 60 * 60), repeats: false)

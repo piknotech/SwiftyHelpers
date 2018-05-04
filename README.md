@@ -50,6 +50,27 @@ Just looking at the helpers already included should help understanding this cate
 - Only a `class` can expose methods to the obj-c runtime using `@objc` (needed for selectors).
 That's why both **Singleton Managers** and **Static Actors** are a `class` while **Static Infos** remain a `struct`.
 
+## Further Ideas
+
+While there are helper types that can be used across multiple apps, many helpers are also app-specific. Nonetheless, those can still be implemented in accordance with the helper categorization & design pattern introduced for this repository.
+
+As an inspiration, here are some more specific helper types used in our apps, just by name:
+
+- `AlertManager`
+- `ColorManager`
+- `GameCenterManager`
+- `InAppPurchaseManager`
+- `InGameTextInfo`
+- `LaunchManager`
+- `PushNotificationsManager`
+- `ProgressIndicatorManager`
+- `QuickActionsManager`
+- `ScoreManager`
+- `SpotlightManager`
+- `UserInfo`
+
+As you can see, these helpers are mostly managers, which is quite natural given that managers are designed to be quite specific when interacting with some API, whilst actors and infos are more broad usually.
+
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](https://github.com/piknotech/SwiftyHelpers/blob/stable/CONTRIBUTING.md) for in-depth information.
