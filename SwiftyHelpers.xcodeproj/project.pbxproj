@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC0F6BDB205B1F7200E4C097 /* libSwiftyHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */; };
+		CC4088A9209C9E1A0001960A /* DimensionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4088A8209C9E1A0001960A /* DimensionInfo.swift */; };
 		CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AADA2040D0A10062C26C /* AnimationInfo.swift */; };
 		CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD92040D0A10062C26C /* DeviceInfo.swift */; };
 		CCAA8CA32056CB17000F054D /* SizeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD62040D0A10062C26C /* SizeInfo.swift */; };
@@ -51,6 +52,7 @@
 		CC0F6BD6205B1F7200E4C097 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0F6BDA205B1F7200E4C097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC358878209A570C00BFC988 /* FabricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricManager.swift; sourceTree = "<group>"; };
+		CC4088A8209C9E1A0001960A /* DimensionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionInfo.swift; sourceTree = "<group>"; };
 		CC62AACE2040D0A10062C26C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC62AAD02040D0A10062C26C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		CC62AAD12040D0A10062C26C /* InstallationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationManager.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				CC62AADA2040D0A10062C26C /* AnimationInfo.swift */,
 				CC62AAD92040D0A10062C26C /* DeviceInfo.swift */,
+				CC4088A8209C9E1A0001960A /* DimensionInfo.swift */,
 				CC62AAD62040D0A10062C26C /* SizeInfo.swift */,
 				CC62AAD72040D0A10062C26C /* VersionInfo.swift */,
 			);
@@ -314,6 +317,7 @@
 				CCAA8CA52056CB1B000F054D /* AppReviewManager.swift in Sources */,
 				CCAA8CA82056CB1B000F054D /* HapticFeedback.swift in Sources */,
 				CCAA8CA32056CB17000F054D /* SizeInfo.swift in Sources */,
+				CC4088A9209C9E1A0001960A /* DimensionInfo.swift in Sources */,
 				CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */,
 				CCAA8CA72056CB1B000F054D /* Delay.swift in Sources */,
 				CCAA8CAB2056CB1B000F054D /* NotificationManager.swift in Sources */,
