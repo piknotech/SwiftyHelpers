@@ -10,9 +10,6 @@ import CoreTelephony
 import Foundation
 
 struct DeviceInfo {
-    // MARK: - Initializers
-    private init() { }
-
     // MARK: - Properties
     /// Device's model identifier
     static let modelIdentifier: String = {
@@ -44,4 +41,7 @@ struct DeviceInfo {
     static var timeZone: String? {
         return NSTimeZone.local.abbreviation()
     }
+
+    // MARK: - Initializers
+    private init() { }
 }

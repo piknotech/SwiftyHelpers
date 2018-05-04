@@ -9,9 +9,6 @@
 import Foundation
 
 struct AnimationInfo {
-    // MARK: - Initializers
-    private init() { }
-
     // MARK: - Properties
     private static let isSlow = false
     static let slowMultiplicator = isSlow ? 5.0 : 1.0
@@ -20,4 +17,7 @@ struct AnimationInfo {
     static let shortAnimationTime = 0.3 * slowMultiplicator
     static let fastAnimationTime = 0.2 * slowMultiplicator
     // ...
+
+    // MARK: - Initializers
+    private init() { }
 }
