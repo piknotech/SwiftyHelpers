@@ -24,6 +24,7 @@
 		CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD02040D0A10062C26C /* SoundManager.swift */; };
 		CCD8A7A8205B242E0032A350 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8A7A7205B242E0032A350 /* SampleTests.swift */; };
 		CCD8A7AA205B24C70032A350 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = CCD8A7A9205B24C70032A350 /* .travis.yml */; };
+		CCFBD2C1209CFC1F007A4F5F /* FabricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC358878209A570C00BFC988 /* FabricManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -321,6 +322,7 @@
 				CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */,
 				CCAA8CA72056CB1B000F054D /* Delay.swift in Sources */,
 				CCAA8CAB2056CB1B000F054D /* NotificationManager.swift in Sources */,
+				CCFBD2C1209CFC1F007A4F5F /* FabricManager.swift in Sources */,
 				CCAA8CA42056CB17000F054D /* VersionInfo.swift in Sources */,
 				CCAA8CAC2056CB1B000F054D /* Random.swift in Sources */,
 				CCAA8CA92056CB1B000F054D /* InstallationManager.swift in Sources */,
