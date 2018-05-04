@@ -31,12 +31,12 @@ struct DeviceInfo {
     }
 
     /// Device's carrier
-    static var carrier: String {
-        return CTTelephonyNetworkInfo().subscriberCellularProvider?.carrierName ?? ""
+    static var carrier: String? {
+        return CTTelephonyNetworkInfo().subscriberCellularProvider?.carrierName
     }
 
     /// Device's timezone
-    static var timeZone: String {
-        return NSTimeZone.local.abbreviation() ?? ""
+    static var timeZone: String? {
+        return NSTimeZone.local.abbreviation()
     }
 }
