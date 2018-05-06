@@ -50,7 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CC0F6BD6205B1F7200E4C097 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F6BD6205B1F7200E4C097 /* SwiftyHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0F6BDA205B1F7200E4C097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC358878209A570C00BFC988 /* FabricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricManager.swift; sourceTree = "<group>"; };
 		CC4088A8209C9E1A0001960A /* DimensionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionInfo.swift; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 				CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */,
 				CCD8A7A9205B24C70032A350 /* .travis.yml */,
 				CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */,
-				CC0F6BD6205B1F7200E4C097 /* Tests.xctest */,
+				CC0F6BD6205B1F7200E4C097 /* SwiftyHelpersTests.xctest */,
 			);
 			name = "Loose References";
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC0F6BD5205B1F7200E4C097 /* Tests */ = {
+		CC0F6BD5205B1F7200E4C097 /* SwiftyHelpersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC0F6BE0205B1F7200E4C097 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildConfigurationList = CC0F6BE0205B1F7200E4C097 /* Build configuration list for PBXNativeTarget "SwiftyHelpersTests" */;
 			buildPhases = (
 				CC0F6BD2205B1F7200E4C097 /* Sources */,
 				CC0F6BD3205B1F7200E4C097 /* Frameworks */,
@@ -198,9 +198,9 @@
 			dependencies = (
 				CC0F6BDD205B1F7200E4C097 /* PBXTargetDependency */,
 			);
-			name = Tests;
+			name = SwiftyHelpersTests;
 			productName = Tests;
-			productReference = CC0F6BD6205B1F7200E4C097 /* Tests.xctest */;
+			productReference = CC0F6BD6205B1F7200E4C097 /* SwiftyHelpersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CCAA8C952056CB0F000F054D /* SwiftyHelpers */ = {
@@ -254,7 +254,7 @@
 			projectRoot = "";
 			targets = (
 				CCAA8C952056CB0F000F054D /* SwiftyHelpers */,
-				CC0F6BD5205B1F7200E4C097 /* Tests */,
+				CC0F6BD5205B1F7200E4C097 /* SwiftyHelpersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC0F6BE0205B1F7200E4C097 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+		CC0F6BE0205B1F7200E4C097 /* Build configuration list for PBXNativeTarget "SwiftyHelpersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC0F6BDE205B1F7200E4C097 /* Debug */,
