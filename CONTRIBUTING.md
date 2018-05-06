@@ -13,7 +13,8 @@ Please obey these guidelines:
 - For **code**:
     - Follow the file structure guide described [here](http://bestpractices.jamitlabs.com/t/file-structure-use-of-mark/84).
     - Don't produce any SwiftLint warnings or errors.
-- For **file headers** in Swift source files, use the following format:
+- For **file headers in Swift source files**:
+    - Use the following format:
 
 ```swift
 //
