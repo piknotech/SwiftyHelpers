@@ -14,7 +14,7 @@
         alt="Version: 1.0">
     </a>
     <a href="https://github.com/piknotech/SwiftyHelpers/blob/stable/LICENSE.md">
-        <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
+        <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License: MIT">
     </a>
 </p>
 
