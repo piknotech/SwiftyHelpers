@@ -23,7 +23,6 @@
 		CCAA8CAC2056CB1B000F054D /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBB20528B80007CBB24 /* Random.swift */; };
 		CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD02040D0A10062C26C /* SoundManager.swift */; };
 		CCD8A7A8205B242E0032A350 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8A7A7205B242E0032A350 /* SampleTests.swift */; };
-		CCD8A7AA205B24C70032A350 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = CCD8A7A9205B24C70032A350 /* .travis.yml */; };
 		CCFBD2C1209CFC1F007A4F5F /* FabricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC358878209A570C00BFC988 /* FabricManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -128,9 +127,6 @@
 				CC3DA7A0209A0224000CDD67 /* Helpers */,
 				CC0F6BD7205B1F7200E4C097 /* Tests */,
 				CCAA8C972056CB0F000F054D /* Loose References */,
-				CC62AADB2040D0A10062C26C /* LICENSE.md */,
-				CC62AACE2040D0A10062C26C /* README.md */,
-				CCAA8CB02056D13A000F054D /* CONTRIBUTING.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +169,9 @@
 		CCAA8C972056CB0F000F054D /* Loose References */ = {
 			isa = PBXGroup;
 			children = (
+				CC62AACE2040D0A10062C26C /* README.md */,
+				CC62AADB2040D0A10062C26C /* LICENSE.md */,
+				CCAA8CB02056D13A000F054D /* CONTRIBUTING.md */,
 				CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */,
 				CCD8A7A9205B24C70032A350 /* .travis.yml */,
 				CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */,
@@ -264,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCD8A7AA205B24C70032A350 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

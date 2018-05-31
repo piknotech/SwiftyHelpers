@@ -7,7 +7,11 @@
         <img src="https://travis-ci.org/piknotech/SwiftyHelpers.svg?branch=stable" alt="Build Status">
     </a>
     <a href="#">
-        <img src="https://img.shields.io/badge/Swift-4.1-FFAC45.svg" alt="Swift: 4.1">
+        <img src="https://img.shields.io/badge/swift-4.1-FFAC45.svg" alt="Swift: 4.1">
+    </a>
+    <a href="https://github.com/piknotech/SwiftyHelpers/releases">
+        <img src="https://img.shields.io/badge/version-1.0-blue.svg"
+        alt="Version: 1.0">
     </a>
     <a href="https://github.com/piknotech/SwiftyHelpers/blob/stable/LICENSE.md">
         <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
