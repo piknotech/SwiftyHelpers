@@ -1,4 +1,8 @@
 language: swift
-xcode_project: SwiftyHelpers.xcodeproj
-xcode_scheme: SwiftyHelpers
-osx_image: xcode9.3
+osx_image: xcode9.4
+
+before_install:
+- brew upgrade SwiftLint || true
+
+script:
+- xcodebuild clean test -project SwiftyHelpers.xcodeproj -scheme SwiftyHelpers -destination "platform=iOS Simulator,name=iPhone 8,OS=11.4" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
