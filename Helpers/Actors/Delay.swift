@@ -50,7 +50,7 @@ final class Delay {
             repeats: false
         )
         timers.append(timer)
-        RunLoop.main.add(timer, forMode: .commonModes)
+        RunLoop.main.add(timer, forMode: .common)
     }
 
     /// Cancel timer with unique identifier and object, if existing.

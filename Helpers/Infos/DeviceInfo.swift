@@ -6,7 +6,6 @@
 //  Copyright © 2018 Piknotech. All rights reserved.
 //
 
-import CoreTelephony
 import Foundation
 
 struct DeviceInfo {
@@ -30,11 +29,6 @@ struct DeviceInfo {
     /// Device's language
     static var locale: String {
         return Locale.current.identifier
-    }
-
-    /// Device's carrier
-    static var carrier: String? {
-        return CTTelephonyNetworkInfo().subscriberCellularProvider?.carrierName
     }
 
     /// Device's timezone

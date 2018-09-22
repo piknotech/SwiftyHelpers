@@ -20,7 +20,7 @@ final class SoundManager {
     func configure() {
         // Enable sound even in silent mode
         DispatchQueue.global().async {
-            _ = try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, with: .mixWithOthers)
+            _ = try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: .mixWithOthers)
             _ = try? AVAudioSession.sharedInstance().setActive(true)
         }
     }
