@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7B64B9E25C01682005FFAF1 /* GCDTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B64B9C25C01682005FFAF1 /* GCDTiming.swift */; };
+		A7B64B9F25C01682005FFAF1 /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B64B9D25C01682005FFAF1 /* Timing.swift */; };
+		A7B64BA325C016A5005FFAF1 /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B64BA225C016A5005FFAF1 /* Synchronized.swift */; };
 		CC4088A9209C9E1A0001960A /* DimensionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4088A8209C9E1A0001960A /* DimensionInfo.swift */; };
 		CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AADA2040D0A10062C26C /* AnimationInfo.swift */; };
 		CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD92040D0A10062C26C /* DeviceInfo.swift */; };
@@ -14,7 +17,6 @@
 		CCAA8CA42056CB17000F054D /* VersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD72040D0A10062C26C /* VersionInfo.swift */; };
 		CCAA8CA52056CB1B000F054D /* AppReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD32040D0A10062C26C /* AppReviewManager.swift */; };
 		CCAA8CA62056CB1B000F054D /* BrandingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD22040D0A10062C26C /* BrandingManager.swift */; };
-		CCAA8CA72056CB1B000F054D /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DB920528B80007CBB24 /* Delay.swift */; };
 		CCAA8CA82056CB1B000F054D /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD42040D0A10062C26C /* HapticFeedback.swift */; };
 		CCAA8CA92056CB1B000F054D /* InstallationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD12040D0A10062C26C /* InstallationManager.swift */; };
 		CCAA8CAA2056CB1B000F054D /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBA20528B80007CBB24 /* Loop.swift */; };
@@ -36,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A7B64B9C25C01682005FFAF1 /* GCDTiming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDTiming.swift; sourceTree = "<group>"; };
+		A7B64B9D25C01682005FFAF1 /* Timing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
+		A7B64BA225C016A5005FFAF1 /* Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
 		CC4088A8209C9E1A0001960A /* DimensionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionInfo.swift; sourceTree = "<group>"; };
 		CC62AACE2040D0A10062C26C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC62AAD02040D0A10062C26C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
@@ -48,7 +53,6 @@
 		CC62AAD92040D0A10062C26C /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		CC62AADA2040D0A10062C26C /* AnimationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationInfo.swift; sourceTree = "<group>"; };
 		CC62AADB2040D0A10062C26C /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		CC973DB920528B80007CBB24 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		CC973DBA20528B80007CBB24 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		CC973DBB20528B80007CBB24 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		CC973DBC20529081007CBB24 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
@@ -114,7 +118,9 @@
 		CCA1F7932089FDAD007554F4 /* Actors */ = {
 			isa = PBXGroup;
 			children = (
-				CC973DB920528B80007CBB24 /* Delay.swift */,
+				A7B64BA225C016A5005FFAF1 /* Synchronized.swift */,
+				A7B64B9C25C01682005FFAF1 /* GCDTiming.swift */,
+				A7B64B9D25C01682005FFAF1 /* Timing.swift */,
 				CC62AAD42040D0A10062C26C /* HapticFeedback.swift */,
 				CC973DBA20528B80007CBB24 /* Loop.swift */,
 				CC973DBB20528B80007CBB24 /* Random.swift */,
@@ -219,14 +225,16 @@
 				CCAA8CA32056CB17000F054D /* SizeInfo.swift in Sources */,
 				CC4088A9209C9E1A0001960A /* DimensionInfo.swift in Sources */,
 				CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */,
-				CCAA8CA72056CB1B000F054D /* Delay.swift in Sources */,
 				CCAA8CAB2056CB1B000F054D /* NotificationManager.swift in Sources */,
 				CCAA8CA42056CB17000F054D /* VersionInfo.swift in Sources */,
 				CCAA8CAC2056CB1B000F054D /* Random.swift in Sources */,
 				CCAA8CA92056CB1B000F054D /* InstallationManager.swift in Sources */,
+				A7B64BA325C016A5005FFAF1 /* Synchronized.swift in Sources */,
+				A7B64B9E25C01682005FFAF1 /* GCDTiming.swift in Sources */,
 				CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */,
 				CCAA8CAA2056CB1B000F054D /* Loop.swift in Sources */,
 				CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */,
+				A7B64B9F25C01682005FFAF1 /* Timing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

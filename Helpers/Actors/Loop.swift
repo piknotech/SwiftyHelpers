@@ -20,13 +20,13 @@ final class Loop {
         interval: Double,
         alternating block1: @escaping () -> Void,
         and block2: @escaping () -> Void
-    ) -> String {
-        let uniqueId = UUID().uuidString
+    ) -> UUID {
+        let uniqueId = UUID()
 
         func loop() {
-            Delay.by(interval, identifier: uniqueId) {
+            GCDTiming.shared.perform(after: interval, identification: .id(uniqueId)) {
                 block1()
-                Delay.by(interval, identifier: uniqueId) {
+                GCDTiming.shared.perform(after: interval, identification: .id(uniqueId)) {
                     block2()
                     loop()
                 }
@@ -40,12 +40,12 @@ final class Loop {
     /// Repeat a single block.
     /// Returns the unique identifier of the loop needed for stooping it using stop().
     @discardableResult
-    static func with(interval: Double, block: @escaping () -> Void) -> String {
+    static func with(interval: Double, block: @escaping () -> Void) -> UUID {
         return with(interval: interval, alternating: block, and: block)
     }
 
     /// Stop a loop with a given unique identifer.
-    static func stop(withUniqueId uniqueId: String) {
-        Delay.cancel(withIdentifier: uniqueId)
+    static func stop(withUniqueId uniqueId: UUID) {
+        GCDTiming.shared.cancelTasks(matching: .id(uniqueId))
     }
 }
