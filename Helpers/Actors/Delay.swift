@@ -57,7 +57,7 @@ final class Delay {
     /// Return "false" if the timer with the specified identifier and object could not be found, "true" otherwise.
     @discardableResult
     static func cancel(withIdentifier identifier: String?, object: AnyObject? = nil) -> Bool {
-        let index = timers.index {
+        let index = timers.firstIndex {
             guard let userInfo = $0.userInfo as? UserInfo else { fatalError() }
             return userInfo.identifier == identifier && userInfo.object === object
         }
@@ -85,7 +85,7 @@ final class Delay {
         dispatchQueue.async(execute: userInfo.block)
 
         // Remove timer
-        let index = timers.index { $0 === timer }
+        let index = timers.firstIndex { $0 === timer }
         if let index = index {
             timers.remove(at: index)
         }
