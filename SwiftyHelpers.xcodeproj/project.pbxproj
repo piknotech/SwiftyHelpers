@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC0F6BDB205B1F7200E4C097 /* libSwiftyHelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */; };
 		CC4088A9209C9E1A0001960A /* DimensionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4088A8209C9E1A0001960A /* DimensionInfo.swift */; };
 		CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AADA2040D0A10062C26C /* AnimationInfo.swift */; };
 		CCAA8CA12056CB17000F054D /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD92040D0A10062C26C /* DeviceInfo.swift */; };
@@ -22,19 +21,7 @@
 		CCAA8CAB2056CB1B000F054D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBC20529081007CBB24 /* NotificationManager.swift */; };
 		CCAA8CAC2056CB1B000F054D /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC973DBB20528B80007CBB24 /* Random.swift */; };
 		CCAA8CAD2056CB1B000F054D /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC62AAD02040D0A10062C26C /* SoundManager.swift */; };
-		CCD8A7A8205B242E0032A350 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8A7A7205B242E0032A350 /* SampleTests.swift */; };
-		CCFBD2C1209CFC1F007A4F5F /* FabricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC358878209A570C00BFC988 /* FabricManager.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CC0F6BDC205B1F7200E4C097 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC43A9D72040D0830038D290 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCAA8C952056CB0F000F054D;
-			remoteInfo = SwiftySnippets;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CCAA8C942056CB0F000F054D /* CopyFiles */ = {
@@ -49,9 +36,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CC0F6BD6205B1F7200E4C097 /* SwiftyHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC0F6BDA205B1F7200E4C097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC358878209A570C00BFC988 /* FabricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricManager.swift; sourceTree = "<group>"; };
 		CC4088A8209C9E1A0001960A /* DimensionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionInfo.swift; sourceTree = "<group>"; };
 		CC62AACE2040D0A10062C26C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC62AAD02040D0A10062C26C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
@@ -71,19 +55,10 @@
 		CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftyHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		CCAA8CB02056D13A000F054D /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		CCD8A7A7205B242E0032A350 /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 		CCD8A7A9205B24C70032A350 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC0F6BD3205B1F7200E4C097 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC0F6BDB205B1F7200E4C097 /* libSwiftyHelpers.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CCAA8C932056CB0F000F054D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,23 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC0F6BD7205B1F7200E4C097 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CC0F6BE1205B1F8100E4C097 /* Sources */,
-				CC0F6BDA205B1F7200E4C097 /* Info.plist */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		CC0F6BE1205B1F8100E4C097 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				CCD8A7A7205B242E0032A350 /* SampleTests.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
 		CC3DA7A0209A0224000CDD67 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				CC3DA7A0209A0224000CDD67 /* Helpers */,
-				CC0F6BD7205B1F7200E4C097 /* Tests */,
 				CCAA8C972056CB0F000F054D /* Loose References */,
 			);
 			sourceTree = "<group>";
@@ -135,7 +92,6 @@
 			children = (
 				CC62AAD32040D0A10062C26C /* AppReviewManager.swift */,
 				CC62AAD22040D0A10062C26C /* BrandingManager.swift */,
-				CC358878209A570C00BFC988 /* FabricManager.swift */,
 				CC62AAD12040D0A10062C26C /* InstallationManager.swift */,
 				CC973DBC20529081007CBB24 /* NotificationManager.swift */,
 				CC62AAD02040D0A10062C26C /* SoundManager.swift */,
@@ -175,7 +131,6 @@
 				CCAA8CAF2056CEDF000F054D /* .swiftlint.yml */,
 				CCD8A7A9205B24C70032A350 /* .travis.yml */,
 				CCAA8C962056CB0F000F054D /* libSwiftyHelpers.a */,
-				CC0F6BD6205B1F7200E4C097 /* SwiftyHelpersTests.xctest */,
 			);
 			name = "Loose References";
 			sourceTree = "<group>";
@@ -183,25 +138,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC0F6BD5205B1F7200E4C097 /* SwiftyHelpersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC0F6BE0205B1F7200E4C097 /* Build configuration list for PBXNativeTarget "SwiftyHelpersTests" */;
-			buildPhases = (
-				CC0F6BD2205B1F7200E4C097 /* Sources */,
-				CC0F6BD3205B1F7200E4C097 /* Frameworks */,
-				CC0F6BD4205B1F7200E4C097 /* Resources */,
-				CCBA1383206EE05B005BFBBE /* SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC0F6BDD205B1F7200E4C097 /* PBXTargetDependency */,
-			);
-			name = SwiftyHelpersTests;
-			productName = Tests;
-			productReference = CC0F6BD6205B1F7200E4C097 /* SwiftyHelpersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		CCAA8C952056CB0F000F054D /* SwiftyHelpers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCAA8C9F2056CB0F000F054D /* Build configuration list for PBXNativeTarget "SwiftyHelpers" */;
@@ -230,11 +166,6 @@
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Piknotech;
 				TargetAttributes = {
-					CC0F6BD5205B1F7200E4C097 = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1220;
-						ProvisioningStyle = Manual;
-					};
 					CCAA8C952056CB0F000F054D = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1220;
@@ -256,20 +187,9 @@
 			projectRoot = "";
 			targets = (
 				CCAA8C952056CB0F000F054D /* SwiftyHelpers */,
-				CC0F6BD5205B1F7200E4C097 /* SwiftyHelpersTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		CC0F6BD4205B1F7200E4C097 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		CCAA8CAE2056CEB5000F054D /* SwiftLint */ = {
@@ -286,31 +206,9 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint > /dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download it from https://github.com/realm/SwiftLint\"\nfi";
 		};
-		CCBA1383206EE05B005BFBBE /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint > /dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download it from https://github.com/realm/SwiftLint\"\nfi";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC0F6BD2205B1F7200E4C097 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCD8A7A8205B242E0032A350 /* SampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CCAA8C922056CB0F000F054D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,7 +221,6 @@
 				CCAA8CA02056CB17000F054D /* AnimationInfo.swift in Sources */,
 				CCAA8CA72056CB1B000F054D /* Delay.swift in Sources */,
 				CCAA8CAB2056CB1B000F054D /* NotificationManager.swift in Sources */,
-				CCFBD2C1209CFC1F007A4F5F /* FabricManager.swift in Sources */,
 				CCAA8CA42056CB17000F054D /* VersionInfo.swift in Sources */,
 				CCAA8CAC2056CB1B000F054D /* Random.swift in Sources */,
 				CCAA8CA92056CB1B000F054D /* InstallationManager.swift in Sources */,
@@ -335,140 +232,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		CC0F6BDD205B1F7200E4C097 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CCAA8C952056CB0F000F054D /* SwiftyHelpers */;
-			targetProxy = CC0F6BDC205B1F7200E4C097 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		CC0F6BDE205B1F7200E4C097 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.piknotech.SwiftySnippets.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CC0F6BDF205B1F7200E4C097 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.piknotech.SwiftySnippets.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		CC43A9DB2040D0830038D290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -657,15 +421,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC0F6BE0205B1F7200E4C097 /* Build configuration list for PBXNativeTarget "SwiftyHelpersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC0F6BDE205B1F7200E4C097 /* Debug */,
-				CC0F6BDF205B1F7200E4C097 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CC43A9DA2040D0830038D290 /* Build configuration list for PBXProject "SwiftyHelpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
